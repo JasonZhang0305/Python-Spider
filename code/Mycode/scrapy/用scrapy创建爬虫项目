@@ -1,0 +1,7 @@
+1. 用scrapy创建爬虫项目：
+scrapy project_name
+
+2. 创建爬虫文件：
+在spiders文件中创建
+cd project_name/project_name/spiders
+scrapy genspider file_name url
