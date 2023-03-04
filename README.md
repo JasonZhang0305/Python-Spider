@@ -5,8 +5,7 @@ Python爬虫主要需要用到urllib和requests这两个库，requests是在urll
 还需要学习xpath等解析插件，帮助我们在爬去网页所有信息之后，抓取出我们想要的部分信息。
 为了应对反爬机制，还需要学习一下selenium,这个工具能够驱动浏览器向服务器发送请求，就像真实的用户在操作一下，避免被识别为爬虫程序。
 最后，为了方便代码的编写，还需要学习一个scrapy爬虫框架,scrapy的工作原理如下。
-
-
+![Project Directory](https://github.com/JasonZhang0305/Githubimg/blob/main/img/scrapy.png).   
 
 爬虫的本质其实是模仿用户向服务器发送请求，然后接受返回的信息。通常来说一个页面上所有能看得见的信息都能够被获取，就算是用户登陆后的页面，
 只要能够获取该用户的cookie，也能够伪装成该用户向服务器发送请求，并获取登入页面的信息。
